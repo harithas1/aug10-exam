@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --forground-color: black;
+    --back-color: white;
+    background-color: var(--back-color);
+    color: var(--forground-color);
+}
+
+.container{
+    height: 300px;
+    width: 500px;
+    border: 2px solid;
+    padding: 30px;
+}
+
+.toggle-theme{
+    background-color: var(--forground-color);
+    color: var(--back-color);
+}
+
+button{
+    border: 2px solid green;
+    color: green;
+    padding: 5px;
+}
